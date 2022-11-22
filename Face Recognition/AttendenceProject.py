@@ -26,7 +26,7 @@ def findEncodings(images):
     return encodeList
 
 late = "LATE"
-ontime = ""
+ontime = "ON TIME"
 
 def markAttendence(name):
     with open('Attendence.csv', 'r+') as f:
